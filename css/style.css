@@ -1,0 +1,49 @@
+*,
+::before,
+::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.background{
+  min-height:150vh;
+  background-image: url('../img/orqaga.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+.food_box{
+  position: relative;
+  top: 130px;
+  width:100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgba(109, 26, 26, 0.604);
+  border-radius: 20px;
+  background-color: rgba(21, 4, 4, 0.479);
+}
+.food-item{
+  padding:50px 20px;
+  
+}
+.food-img img{
+  width: 326px;
+  height: 215px;
+}
+.food-title{
+  justify-content: center;
+  padding: 20px 10px;
+}
+.food-title h2{
+  justify-content: center;
+  font-size: 50px;
+  color: rgb(45, 20, 3);
+  line-height: 60px;
+  padding: 5px 20px;
+}
+.food-title p{
+  font-size: 25px;
+  color: rgb(0, 0, 1);
+}
